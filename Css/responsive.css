@@ -55,6 +55,18 @@
     .book-img  .trip-img{
         height: 20vh;
     }
+    .book-img .inner-card{
+        top: 78%;
+        right: 0;
+    }
+    .subscribe-bg{
+        background-position:  center;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -87,6 +99,12 @@
     .book-img  .trip-img{
         height: 20vh;
     }
-    
-
+    .book-img .inner-card{
+        top: 50%;
+        right: 0;
+    }
+    .subscribe-bg{
+        height: 30vh;
+        background-position:  center;
+    }
 }

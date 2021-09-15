@@ -69,7 +69,7 @@ html,body{
     background-image: url('../Images/Gallery/Home.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -5rem;
+    background-position: center -10rem;
 
     overflow: hidden;
 }
@@ -262,13 +262,13 @@ html,body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 20px;
 }
 .book-box .contact{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 .book-box .contact-circle{
     width: 2.5rem;
     height: 2.5rem;
@@ -302,4 +302,143 @@ html,body{
 }
 .book-text p{
     font-size: 0.7rem;
+}
+.book-img{
+    position: relative;
+}
+.book-img .inner-card{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    border-radius: 20px;
+    /* height: 20vh; */
+    background-color: white;
+}
+.inner-card .inner-card-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inner-card .inner-card-details img{
+    margin-right: 1rem;
+}
+.inner-card .inner-card-details h6{
+    font-size: small;
+    color: var(--lightblue);
+    margin-bottom: 0;
+}
+.inner-card .inner-card-details h5{
+    font-weight: bold;
+    color: var(--blue);
+}
+.slidecontainer input{
+    color: var(--blue);
+}
+.slidecontainer p{
+    color: var(--blue);
+    font-weight: bold;
+    margin: 0;
+}
+
+.test .test-head h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.test .test-head h2{
+    font-weight: bold;
+    color: var(--blue);
+}
+.testimonial{
+    position: relative;
+}
+.testimonial .test-img{
+    position: absolute;
+    width: 3rem;
+    top: -5%;
+    left: -5%;
+}
+.testimonial h6{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: small;
+    margin: 0;
+}
+.partner .partner-head h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.partner .partner-head h2{
+    font-weight: bold;
+    color: var(--blue);
+}
+.partner .partner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.subscribe-bg{
+    height: 40vh;
+    background-image: url('../Images/Gallery/susbcribe.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe-bg h5{
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.subscribe-bg button{
+    background-color: var(--red);
+    color: white !important;
+    padding: 0.5rem 1rem;
+    font-size: small;
+
+}
+.subscribe-bg input{
+    background-color: #fff;
+    color: var(--lightblue) !important;
+    padding: 0.5rem 1rem;
+    font-size: small;
+    outline: none;
+    border: none;
+}
+input::placeholder{
+    font-size: small;
+}
+footer p{
+    color: var(--lightblue);
+}
+footer h6{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+footer a{
+    color: var(--lightblue);
+    text-decoration: none;
+    font-size: small;
+}
+footer ul {
+    padding: 0;
+}
+
+footer ul li{
+    margin-top: 0.5rem;
+    list-style: none;
+    color: var(--lightblue);
+    font-size: small;
+}
+footer .download{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer .lowerfooter span{
+    color: var(--red);
 }
