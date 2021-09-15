@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: small;
+}
+:root{
+    --red : #DF6951;
+    --blue: #181E4B;
+    --lightblue: #5E6282;
+}
+
+html,body{
+    width: 100%;
+    
+    overflow-x: hidden;
+}
+.navigation{
+    position: fixed;
+    /* background-color: transparent; */
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navigation .logo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.navigation h5{
+    margin-bottom: 0;
+}
+.navigation .logo img{
+    width: 7rem;
+    height: 2rem;
+}
+
+.navigation  a{
+    display: block;
+   text-decoration: none;
+   color: var(--blue);
+   font-size: small;
+   padding: 0.5rem 1rem;
+}
+.navigation .nav-links ul{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 0;
+    
+}
+.navigation .nav-links .nav-btn{
+    background-color: var(--red);
+    color: white !important;
+    padding: 0.5rem 1rem;
+}
+#bars{
+    display: none;
+}
+.home{
+    height: 100vh;
+    background-color: #fff;
+    background-image: url('../Images/Gallery/Home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -5rem;
+
+    overflow: hidden;
+}
+
+.home .human-img ,.home .home-text{
+    height: 100vh;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home-text{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.home .home-text h6{
+    font-weight: bold;
+    color: var(--red);
+    text-transform: uppercase;
+    font-size: small;
+}
+.home .home-text h1{
+    font-weight: bold;
+    color: var(--blue);
+    font-size: 2.5rem;
+}
+.home .home-text p{
+    font-size: 0.7rem !important;
+    color: var(--lightblue);
+    line-height: 1.3rem;
+    margin-bottom: 0;
+}
+.home .home-btn-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-btn-section button{
+    font-size: small;
+    background-color: #F1A501;
+    color: white !important;
+    padding: 0.5rem 1rem;
+}
+.home .home-btn-section .video-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    
+}
+.video-btn .video-btn-bg{
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--red);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 0.6rem;
+  font-size: small !important;
+}
+
+.service .service-head h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.service .service-head h2{
+    font-weight: bold;
+    color: var(--blue);
+}
+.servicecard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.servicecard:hover .hoverimg {
+    display: initial;
+}
+.servicecard .hoverimg{
+    display: none;
+    width: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.servicecard .activeserviceimg{
+    width: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;   
+}
+.service-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service-card img{
+    width: 4rem;
+}
+.service-card h6{
+    color: var(--blue);
+}
+.service-card p{
+    
+    color: var(--lightblue);
+}
+
+
+.destination .destination-head h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.destination .destination-head h2{
+    font-weight: bold;
+    color: var(--blue);
+}
+.Destination{
+    position: relative;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:20px ;
+}
+.Destination1{
+    background-image: url('../Images/Gallery/destination-1.jpg');
+}
+.Destination2{
+    background-image: url('../Images/Gallery/destination-2.jpg');
+}
+.Destination3{
+    background-image: url('../Images/Gallery/destination-3.jpg');
+}
+
+.Destination .destination-text{
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    background-color: white;
+    color: var(--lightblue);
+    font-weight: 600;
+    font-weight: small;
+    border-radius: 0 0 19px 19px;
+   
+}
+.destination-text h6{
+    font-size: small;
+}
+.destination-text .city{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book .book-head h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+}
+.book .book-head h2{
+    font-weight: bold;
+    color: var(--blue);
+}
+.book-img{
+    background: radial-gradient(circle at center,#59B1E6,rgba(155, 201, 253, 0.192),#fff);
+    
+}
+.book-img .book-box{
+    background-color: #fff;
+    top: 0;
+    z-index: 999;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.book-img  .trip-img{
+    height: 30vh;
+    background-image: url('../Images/Gallery/trip.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.book-box .contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.book-box .contact-circle{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightblue);
+    margin-right: 1rem;
+    font-size: small;
+}
+.book .book-box h6{
+   font-weight: bold;
+   color: var(--lightblue);
+   font-size: small;
+}
+.book .book-details{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.book .book-details img{
+    margin-right: 1rem;
+}
+.book-text h6{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightblue);
+    margin-bottom: 0;
+}
+.book-text p{
+    font-size: 0.7rem;
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width:576px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    #bars{
+        display: initial;
+    }
+    .home{
+        background-position: center -10rem;
+        background-size: cover;
+    }
+    .home .home-text{
+        height: 50vh;
+        justify-content: flex-start;
+    }
+    .home .home-text h1{
+        font-size: 1.5rem;
+    }
+    .home .human-img {
+        height: 50vh;
+        align-items: flex-end; 
+    }
+    
+    .navigation .logo{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .navigation .logo img{
+        width: 5rem;
+        height: 1.5rem;
+    }
+    .navigation  a{
+       padding: 1.5rem 1.5rem;
+    }
+    .navigation .nav-links{
+        display: none;
+        background-color: white;
+        
+    }
+    .navigation .nav-links ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .navigation .nav-links {
+        /* flex-direction: column; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .Destination{
+        height: 45vh;
+    }
+    .book-img  .trip-img{
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .home .home-text{
+        height: 40vh;
+        justify-content: flex-start;
+
+    }
+    .home .human-img {
+        height: 60vh;
+        align-items: flex-end;
+    }
+  
+    .home .home-text h1{
+        font-weight: bold;
+        color: var(--blue);
+        font-size: 2rem;
+    }
+    .Destination{
+        height: 30vh;
+    }
+    .book-text p{
+        margin-top: 0.5rem;
+        font-size: small;
+    }
+    .book-img  .trip-img{
+        height: 20vh;
+    }
+    
+
+}
