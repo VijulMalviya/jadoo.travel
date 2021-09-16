@@ -2,503 +2,576 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--    Document Title-->
-
-    <title>Jadoo | Travelling</title>
-
-    <!--    Favicons-->
-
-    <link rel="apple-touch-icon" sizes="180x180" href="./Images/favicon/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="./Images/favicon/favicon.png">
-    <meta name="msapplication-TileImage" content="./Images/favicon/favicon.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--    CDN -->
-    <!-- Bootstrap 5.0  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- font Awosome 4.7.0 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Animation on Scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <!--    Stylesheets-->
-
-    <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" href="./Css/responsive.css">
-    <link rel="stylesheet" href="./Css/hover.css">
-    <link rel="stylesheet" href="./Css/swiper.css">
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--    Document Title-->
+	<title>Jadoo | Travelling</title>
+	<!--    Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="./Images/favicon/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon/favicon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="./Images/favicon/favicon.png">
+	<meta name="msapplication-TileImage" content="./Images/favicon/favicon.png">
+	<meta name="theme-color" content="#ffffff">
+	<!--    CDN -->
+	<!-- Bootstrap 5.0  -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- font Awosome 4.7.0 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Animation on Scroll -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Swiper -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<!--    Stylesheets-->
+	<link rel="stylesheet" href="./Css/style.css">
+	<link rel="stylesheet" href="./Css/responsive.css">
+	<link rel="stylesheet" href="./Css/hover.css">
+	<link rel="stylesheet" href="./Css/swiper.css">
 </head>
 
 <body>
-    <!-- navigation -->
-    <div class="container-fluid navigation p-md-3 p-4 fixed-top" id="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-12 mx-auto">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-3 col-12 logo">
-                            <img src="./Images/logo/Logo.png" class="img-fluid" alt="">
-                            
-                            <h5 id="bars"><i class="fa fa-bars " ></i></h5>
-                        </div>
-                        <div class="col-lg-8 col-md-9 col-12 nav-links">
-                            <ul class="">
-                                <a href="">Destination</a>
-                                <a href="">Hotel</a>
-                                <a href="">Flights</a>
-                                <a href="">Booking</a>
-                                <a href="">Login</a>
-                                <a href="" class=" btn nav-btn" >Sign up</a>
-
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+	<div class="container-fluid loader">
+		<div class="row">
+			<div class="loading">
+                <img src="./Images/logo/logo-white.png" alt="">
+                <img src="./Images/logo/loader-logo.png" alt="">
             </div>
-        </div>
-    </div>
-    <!-- home-section -->
-    <div class="container-fluid home" id="Home">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-10 mx-auto">
-                    <div class="row">
-                        <div class="col-lg-6 col-12 human-img hide-sm">
-                            <img src="./Images/Gallery/human.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-6 col-12 home-text p-3 p-md-5">
-                            <h6 class="mb-4">Best Destinations around the world</h6>
-                            <h1 >Travel, enjoy
+		</div>
+	</div>
+	<!-- navigation -->
+	<div class="container-fluid navigation p-md-3 p-4 fixed-top" id="navigation" data-aos="fade-up">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-4 col-md-3 col-12 logo">
+							<img src="./Images/logo/Logo.png" class="img-fluid" alt="" >
+							<h5 id="bars"><i class="fa fa-bars "></i></h5>
+						</div>
+						<div class="col-lg-8 col-md-9 col-12 nav-links">
+							<ul class=""> <a href="">Destination</a>
+								<a href="">Hotel</a>
+								<a href="">Flights</a>
+								<a href="">Booking</a>
+								<a href="">Login</a>
+								<a href="" class=" btn nav-btn">Sign up</a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- home-section -->
+	<div class="container-fluid home" id="Home">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="col-lg-6 col-12 human-img hide-sm">
+							<img src="./Images/Gallery/human.png" class="img-fluid" alt="human" data-aos="fade-right">
+						</div>
+						<div class="col-lg-6 col-12 home-text p-3 p-md-5">
+							<h6 class="mb-4" data-aos="fade-right" data-aos-delay="100" >Best Destinations around the world</h6>
+							<h1 data-aos="fade-right" data-aos-delay="200">Travel, enjoy
                                 and live a new
                                 and full life</h1>
-                            
-                            <p class="col-md-9 col-12 mt-2">
-                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
-                            </p>
-                            <div class="home-btn-section mt-3">
-                                <button class="btn ">Find out more</button>
-                                <div class="video-btn">
-                                    <div class="video-btn-bg">
-                                        <i class="fa fa-play"></i>
-                                    </div>
-                                <p>Play Video</p>
-                                </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-      <!-- Service-section -->
-      <div class="container-fluid service pt-5 pb-5" id="Services">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-10 mx-auto">
-                    <div class="row">
-                        <div class="col-12 text-center service-head">
-                            <h6>Category</h6>
-                            <h2>We Offer Best Services</h2>
-                        </div>
-                    </div>
-                    <div class="row mt-md-5 mt-3 mb-3 gy-3">
-                        <div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2">
-                            <img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
-                            <div class="col-10 mx-auto service-card">
-                                <img src="./Images/Gallery/Group 2.png" alt="">
-                                <h6 class="mt-4 text-center">Calculated Weather</h6>
-                                <p class="col-10 text-center mt-2">Built Wicket longer admire do barton vanity itself do in it.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2 activeservice">
-                            <img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
-                            <img class="activeserviceimg img img-fluid" src="./Images/Gallery/hover.png" alt="">
-                            <div class="col-10 mx-auto service-card">
-                                <img src="./Images/Gallery/Group 3.png" alt="">
-                                <h6 class="mt-4">Best Flights</h6>
-                                <p class="col-10 text-center mt-2">Engrossed listening. Park gate sell they west hard for the.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2">
-                            <img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
-
-                            <div class="col-10 mx-auto service-card">
-                                <img src="./Images/Gallery/Group 4.png" alt="">
-                                <h6 class="mt-4">Local Events</h6>
-                                <p class="col-10 text-center mt-2">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2">
-                            <img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
-
-                            <div class="col-10 mx-auto service-card">
-                                <img src="./Images/Gallery/Group 5.png" alt="">
-                                <h6 class="mt-4">Customization</h6>
-                                <p class="col-10 text-center mt-2">We deliver outsourced
-                                    aviation services for
-                                    military customers.</p>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-     <!-- destination-section -->
-     <div class="container-fluid destination pt-5 pb-5" id="Destination">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-10 mx-auto">
-                    <div class="row">
-                        <div class="col-12 text-center destination-head">
-                            <h6>Top Selling</h6>
-                            <h2>Top Destination</h2>
-                        </div>
-                    </div>
-                    <div class="row mt-5 gy-5">
-                        <div class="col-lg-4 col-md-6 col-12 mx-auto  ">
-                            <div class="col-11 mx-auto Destination Destination1 shadow hvr-grow">
-                                <div class="destination-text col-12 p-3">
-                                    <div class="city">
-                                        <h6>Rome, Italy</h6>
-                                        <h6>$542</h6>
-                                    </div>
-                                    <h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 10 Days Trip</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 mx-auto  ">
-                            <div class="col-11 mx-auto Destination Destination2 shadow hvr-grow">
-                                <div class="destination-text col-12 p-3">
-                                    <div class="city">
-                                        <h6>London, UK</h6>
-                                        <h6>$4.2k</h6>
-                                    </div>
-                                    <h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 12 Days Trip</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 mx-auto  ">
-                            <div class="col-11 mx-auto Destination Destination3 shadow hvr-grow">
-                                <div class="destination-text col-12 p-3">
-                                    <div class="city">
-                                        <h6>Full Europe</h6>
-                                        <h6>$15k</h6>
-                                    </div>
-                                    <h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 28 Days Trip</h6>
-                                    <i class="fa fa-long-arrow-alt-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- destination-section -->
-    <div class="container-fluid book pt-5 pb-5" id="Book">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-10 mx-auto">
-                    <div class="row">
-                        <div class="col-12 text-left book-head">
-                            <h6>Easy and Fast</h6>
-                            <h2 class="col-md-6 col-12">Book Your Next Trip 
+							<p class="col-md-9 col-12 mt-2"data-aos="fade-right" data-aos-delay="300" >Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+							<div class="home-btn-section mt-3">
+								<button class="btn " data-aos="fade-right" data-aos-delay="400">Find out more</button>
+								<div class="video-btn" data-aos="fade-right" data-aos-delay="500">
+									<div class="video-btn-bg"> <i class="fa fa-play"></i>
+									</div>
+									<p>Play Video</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Service-section -->
+	<div class="container-fluid service pt-5 pb-5" id="Services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-10 mx-auto">
+					<div class="row">
+						<div class="col-12 text-center service-head">
+							<h6 data-aos="fade-right" data-aos-delay="">Category</h6>
+							<h2 data-aos="fade-right" data-aos-delay="100">We Offer Best Services</h2>
+						</div>
+					</div>
+					<div class="row mt-md-5 mt-3 mb-3 gy-3">
+						<div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2" data-aos="fade-up" data-aos-delay="0">
+							<img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
+							<div class="col-10 mx-auto service-card">
+								<img src="./Images/Gallery/Group 2.png" alt="">
+								<h6 class="mt-4 text-center">Calculated Weather</h6>
+								<p class="col-10 text-center mt-2">Built Wicket longer admire do barton vanity itself do in it.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2 activeservice" data-aos="fade-up" data-aos-delay="100">
+							<img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
+							<img class="activeserviceimg img img-fluid" src="./Images/Gallery/hover.png" alt="">
+							<div class="col-10 mx-auto service-card">
+								<img src="./Images/Gallery/Group 3.png" alt="">
+								<h6 class="mt-4">Best Flights</h6>
+								<p class="col-10 text-center mt-2">Engrossed listening. Park gate sell they west hard for the.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2" data-aos="fade-up" data-aos-delay="200">
+							<img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
+							<div class="col-10 mx-auto service-card">
+								<img src="./Images/Gallery/Group 4.png" alt="">
+								<h6 class="mt-4">Local Events</h6>
+								<p class="col-10 text-center mt-2">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-8 mx-auto servicecard hvr-glow p-2" data-aos="fade-up" data-aos-delay="300">
+							<img class="hoverimg img-fluid" src="./Images/Gallery/hover.png" alt="">
+							<div class="col-10 mx-auto service-card">
+								<img src="./Images/Gallery/Group 5.png" alt="">
+								<h6 class="mt-4">Customization</h6>
+								<p class="col-10 text-center mt-2">We deliver outsourced aviation services for military customers.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- destination-section -->
+	<div class="container-fluid destination pt-5 pb-5" id="Destination">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="col-12 text-center destination-head">
+							<h6 data-aos="fade-right" data-aos-delay="0">Top Selling</h6>
+							<h2 data-aos="fade-right" data-aos-delay="100">Top Destination</h2>
+						</div>
+					</div>
+					<div class="row mt-5 gy-5">
+						<div class="col-lg-4 col-md-6 col-12 mx-auto" data-aos="fade-up" data-aos-delay="0">
+							<div class="col-11 mx-auto Destination Destination1 shadow hvr-grow">
+								<div class="destination-text col-12 p-3">
+									<div class="city">
+										<h6>Rome, Italy</h6>
+										<h6>$542</h6>
+									</div>
+									<h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 10 Days Trip</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 mx-auto  " data-aos="fade-up" data-aos-delay="100">
+							<div class="col-11 mx-auto Destination Destination2 shadow hvr-grow">
+								<div class="destination-text col-12 p-3">
+									<div class="city">
+										<h6>London, UK</h6>
+										<h6>$4.2k</h6>
+									</div>
+									<h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 12 Days Trip</h6>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 mx-auto  " data-aos="fade-up" data-aos-delay="200">
+							<div class="col-11 mx-auto Destination Destination3 shadow hvr-grow">
+								<div class="destination-text col-12 p-3">
+									<div class="city">
+										<h6>Full Europe</h6>
+										<h6>$15k</h6>
+									</div>
+									<h6 class="mt-2"><i class="fa fa-location-arrow"></i>&ensp; 28 Days Trip</h6>
+									<i class="fa fa-long-arrow-alt-right"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- book-section -->
+	<div class="container-fluid book pt-5 pb-5" id="Book">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="col-12 text-left book-head">
+							<h6 data-aos="fade-right" data-aos-delay="0">Easy and Fast</h6>
+							<h2 class="col-md-6 col-12" data-aos="fade-right" data-aos-delay="100">Book Your Next Trip
                                 In 3 Easy Steps</h2>
-                        </div>
-                    </div>
-                    <div class="row mt-5 gy-5">
-                        <div class="col-lg-6 col-12 book-img pt-3 pb-3">
-
-                            <div class="book-box col-10 shadow mx-auto p-3">
-                                <div class="trip-img col-12"></div>
-                                <h6 class="mt-3">Trip To Greece</h6>
-                                <p class="text-muted">14-29 June | by Robbin joseph</p>
-                                <div class="contact">
-                                    <div class="contact-circle">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="contact-circle">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="contact-circle">
-                                        <i class="fa fa-location-arrow"></i>
-                                    </div>
-                                </div>
-                                <p class="text-muted mt-4"><i class="fa fa-users"></i>&emsp; 24 people</p>
-                            </div>
-                            <div class="inner-card col-lg-5 col-md-4 col-6 shadow p-3">
-                                <div class="inner-card-details">
-                                    <img src="./Images/Gallery/Mask Group.png" class="img-fluid" alt="">
-                                    <div class="inner-card-text">
-                                        <h6>Ongoing</h6>
-                                        <h5>Trip</h5>
-                                    </div>
-                                  
-                                </div>
-                                <div class="slidecontainer col-12 mt-3">
-                                    <p><small>40%</small></p>
-                                    <input type="range" min="1" max="100" value="40" class="slider" id="myRange">
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="row">
-                                <div class="col-lg-10 col-12 book-details mt-3">
-                                    <img src="./Images/Gallery/choose.png" alt="">
-                                    <div class="book-text">
-                                        <h6>Choose</h6>
-                                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-10 col-12 book-details mt-3">
-                                    <img src="./Images/Gallery/payment.png" alt="">
-                                    <div class="book-text">
-                                        <h6>Make Payment</h6>
-                                        <p class="text-muted" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-10 col-12 book-details mt-3">
-                                    <img src="./Images/Gallery/local-travell.png" alt="">
-                                    <div class="book-text">
-                                        <h6>Reach Airport on Selected Date</h6>
-                                        <p class="text-muted" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonial-section -->
-          <div class="container-fluid test pt-5 pb-5" id="test">
-        
-            <div class="container">
-                <div class="row">
-                    <div class="col-10 mx-auto">
-                        <div class="row gy-5">
-                            <div class=" col-lg-6 col-md-4 col-12  test-head">
-                                <h6>Testimonial</h6>
-                                <h2 class="col-lg-10 col-md-12 col-10">What People Say
-                                    About Us.</h2>
-                            </div>
-                            <div class="col-lg-6 col-md-8 col-12 p-5">
-                                <div class="swiper mySwiper">
-                                    <div class="swiper-wrapper">
-                                      <div class="swiper-slide">
-                                        <div class="col-12 testimonial p-4 shadow">
-                                            <img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
-                                            <p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                                            <h6 class="mt-3">Mike taylor</h6>
-                                            <p class="text-muted"><small>Indore, India</small></p>
-                                        </div>
-                                      </div>
-                                      <div class="swiper-slide">
-                                        <div class="col-12 testimonial p-4 shadow">
-                                            <img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
-                                            <p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                                            <h6 class="mt-3">Mike taylor</h6>
-                                            <p class="text-muted"><small>Indore, India</small></p>
-                                        </div>
-                                      </div>
-                                      <div class="swiper-slide">
-                                        <div class="col-12 testimonial p-4 shadow">
-                                            <img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
-                                            <p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                                            <h6 class="mt-3">Mike taylor</h6>
-                                            <p class="text-muted"><small>Indore, India</small></p>
-                                        </div>
-                                      </div>
-                                      <div class="swiper-slide">
-                                        <div class="col-12 testimonial p-4 shadow">
-                                            <img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
-                                            <p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
-                                            <h6 class="mt-3">Mike taylor</h6>
-                                            <p class="text-muted"><small>Indore, India</small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="swiper-pagination"></div>
-                                  </div>
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-     <!-- partner-section -->
-         <div class="container-fluid partner pt-5 pb-5" id="partner">
-        
-            <div class="container">
-                <div class="row">
-                    <div class="col-10 mx-auto">
-                        <div class="row">
-                            <div class="text-center  partner-head">
-                                <h6>Partners</h6>
-                                <h2 class=" ">
-                                    Our Collaboration with </h2>
-                            </div>
-                        </div>
-                        <div class="row mt-5">
-                            <div class="col-lg-2  col-4 mx-auto partner-logo">
-                                <img src="./Images/Gallery/c1.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-2  col-4 mx-auto">
-                                <img src="./Images/Gallery/c2.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-2  col-4 mx-auto">
-                                <img src="./Images/Gallery/c3.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-2  col-4 mx-auto">
-                                <img src="./Images/Gallery/c4.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-2  col-4 mx-auto">
-                                <img src="./Images/Gallery/c5.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-lg-2  col-4 mx-auto">
-                                <img src="./Images/Gallery/c5.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-     <!-- subscribe-section -->
-     <div class="container-fluid subscribe pt-5 pb-5" id="subscribe">
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-10 mx-auto">
-                    
-                   <div class="row">
-                       <div class="col-12 subscribe-bg p-3">
-                            <h5 class="col-lg-8 col-12 mx-auto text-center">Subscribe to get information, latest news and other
+						</div>
+					</div>
+					<div class="row mt-5 gy-5">
+						<div class="col-lg-6 col-12 book-img pt-3 pb-3">
+							<div class="book-box col-10 shadow mx-auto p-3" data-aos="fade-right" data-aos-delay="0">
+								<div class="trip-img col-12"></div>
+								<h6 class="mt-3">Trip To Greece</h6>
+								<p class="text-muted">14-29 June | by Robbin joseph</p>
+								<div class="contact">
+									<div class="contact-circle"> <i class="fa fa-phone"></i>
+									</div>
+									<div class="contact-circle"> <i class="fa fa-envelope"></i>
+									</div>
+									<div class="contact-circle"> <i class="fa fa-location-arrow"></i>
+									</div>
+								</div>
+								<p class="text-muted mt-4"><i class="fa fa-users"></i>&emsp; 24 people</p>
+							</div>
+							<div class="inner-card col-lg-5 col-md-4 col-6 shadow p-3" data-aos="fade-right" data-aos-delay="100">
+								<div class="inner-card-details">
+									<img src="./Images/Gallery/Mask Group.png" class="img-fluid" alt="">
+									<div class="inner-card-text">
+										<h6>Ongoing</h6>
+										<h5>Trip</h5>
+									</div>
+								</div>
+								<div class="slidecontainer col-12 mt-3">
+									<p><small>40%</small>
+									</p>
+									<input type="range" min="1" max="100" value="40" class="slider" id="myRange">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="row">
+								<div class="col-lg-10 col-12 book-details mt-3" data-aos="fade-up" data-aos-delay="100">
+									<img src="./Images/Gallery/choose.png" alt="">
+									<div class="book-text">
+										<h6>Choose</h6>
+										<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
+									</div>
+								</div>
+								<div class="col-lg-10 col-12 book-details mt-3" data-aos="fade-up" data-aos-delay="200">
+									<img src="./Images/Gallery/payment.png" alt="">
+									<div class="book-text">
+										<h6>Make Payment</h6>
+										<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
+									</div>
+								</div>
+								<div class="col-lg-10 col-12 book-details mt-3" data-aos="fade-up" data-aos-delay="300">
+									<img src="./Images/Gallery/local-travell.png" alt="">
+									<div class="book-text">
+										<h6>Reach Airport on Selected Date</h6>
+										<p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, veritatis!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Testimonial-section -->
+	<div class="container-fluid test pt-5 pb-5" id="test">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row gy-5">
+						<div class=" col-lg-6 col-md-4 col-12  test-head">
+							<h6 data-aos="fade-right" data-aos-delay="0">Testimonial</h6>
+							<h2 class="col-lg-10 col-md-12 col-10" data-aos="fade-right" data-aos-delay="100">What People Say
+                                About Us.</h2>
+						</div>
+						<div class="col-lg-6 col-md-8 col-12 p-5">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="col-12 testimonial p-4 shadow" data-aos="fade-right" data-aos-delay="100">
+											<img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="" >
+											<p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+											<h6 class="mt-3">Mike taylor</h6>
+											<p class="text-muted"><small>Indore, India</small>
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="col-12 testimonial p-4 shadow" data-aos="fade-right" data-aos-delay="100">
+											<img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="" >
+											<p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+											<h6 class="mt-3">Mike taylor</h6>
+											<p class="text-muted"><small>Indore, India</small>
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="col-12 testimonial p-4 shadow" data-aos="fade-right" data-aos-delay="100">
+											<img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
+											<p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+											<h6 class="mt-3">Mike taylor</h6>
+											<p class="text-muted"><small>Indore, India</small>
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="col-12 testimonial p-4 shadow" data-aos="fade-right" data-aos-delay="100">
+											<img src="./Images/Gallery/Image.png" class="img-fluid test-img" alt="">
+											<p class="text-muted mt-4">“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+											<h6 class="mt-3">Mike taylor</h6>
+											<p class="text-muted"><small>Indore, India</small>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- partner-section -->
+	<div class="container-fluid partner pt-5 pb-5" id="partner">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="text-center  partner-head">
+							<h6 data-aos="fade-right" data-aos-delay="">Partners</h6>
+							<h2 class=" " data-aos="fade-right" data-aos-delay="100">
+                                Our Collaboration with </h2>
+						</div>
+					</div>
+					<div class="row mt-5">
+						<div class="col-lg-2  col-4 mx-auto partner-logo">
+							<img src="./Images/Gallery/c1.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="">
+						</div>
+						<div class="col-lg-2  col-4 mx-auto">
+							<img src="./Images/Gallery/c2.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="100">
+						</div>
+						<div class="col-lg-2  col-4 mx-auto">
+							<img src="./Images/Gallery/c3.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="200">
+						</div>
+						<div class="col-lg-2  col-4 mx-auto">
+							<img src="./Images/Gallery/c4.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="300">
+						</div>
+						<div class="col-lg-2  col-4 mx-auto">
+							<img src="./Images/Gallery/c5.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="400">
+						</div>
+						<div class="col-lg-2  col-4 mx-auto">
+							<img src="./Images/Gallery/c5.png" class="img-fluid" alt="" data-aos="fade-up" data-aos-delay="500">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- subscribe-section -->
+	<div class="container-fluid subscribe pt-5 pb-5" id="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="col-12 subscribe-bg p-3">
+							<img src="./Images/Gallery/subscribe-btn.png" class="subs-btn img-fluid" alt="" data-aos="fade-right" data-aos-delay="300">
+							<h5 class="col-lg-8 col-12 mx-auto text-center" data-aos="fade-right" data-aos-delay="0">Subscribe to get information, latest news
+                                and other
                                 interesting offers about Cobham</h5>
-                            <div class="form row mt-4 p-3">
-                                <input type="text" class="col-md-8 col-12" placeholder="Your Email">
-                                <button type="submit"  class="btn col-md-4 col-6 mx-auto">Subscribe</button>
-                            </div>    
-                       </div>
-                   </div>
-                   
-                </div>
-            </div>
-        </div>
-    </div>   
-
-    <!-- footer-section -->
-    <footer class="container-fluid footer pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-10 mx-auto">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-6">
-                            <h6>Jadoo</h6>
-                           <ul>
-                            <li  >Book your trip in minute, get full
-                                Control for much longer.
-                                </li>
-                           </ul>    
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-6">
-                            <h6>Company</h6>
-                            <ul>
-                                <li><a href="">About</a></li>
-                                <li><a href="">Career</a></li>
-                                <li><a href="">Mobile</a></li>
-                            </ul>    
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-6">
-                            <h6>Contact</h6>
-                            <ul>
-                                <li><a href="">Help/FAQ</a></li>
-                                <li><a href="">Press</a></li>
-                                <li><a href="">Affilates</a></li>
-                            </ul>    
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-6">
-                            <h6>More</h6>
-                            <ul>
-                                <li><a href="">Airlinefees</a></li>
-                                <li><a href="">Airline</a></li>
-                                <li><a href="">Low fare tips</a></li>
-                            </ul>    
-                        </div>
-                        <div class="col-lg-3  col-6">
-                            <h6>Catch Us</h6>
-                            <ul>
-                                <li><a href=""><i class="fa fa-facebook"></i></a> &emsp;  <a href=""><i class="fa fa-instagram"></i></a> &emsp; <a href=""><i class="fa fa-twitter"></i></a></li>
-                            </ul>    
-                            <div class="download">
-                                <img src="./Images/Gallery/Google Play.png" alt="">
-                                <img src="./Images/Gallery/Play Store.png" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row lowerfooter">
-                        <p class="col-12 text-center">All rights reserved@jadoo.co |<span> Vijul Malviya</span> </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-
-    <!-- Script -->
-
-    <!-- Jquery 3.5.1 -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Bootstrap 5.0 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <!-- Animation on scroll -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <!-- Swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src="./Script/script.js"></script>
+							<div class="form row mt-4 p-3" data-aos="fade-right" data-aos-delay="100">
+								<input type="text" class="col-md-8 col-12" placeholder="Your Email">
+								<button type="submit" class="btn col-md-4 col-6 mx-auto">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact -->
+	<div class="container-fluid Contact pt-5 pb-5" id="Contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row  gy-5">
+						<div class="col-lg-6 col-12 Contact-form">
+							<div class="  Contact-head">
+								<h6 data-aos="fade-right" data-aos-delay="0">Feel Free to Ask</h6>
+								<h2 class=" " data-aos="fade-right" data-aos-delay="100">
+                                    Any Query</h2>
+							</div>
+							<form class="mt-5">
+								<div class="mb-3 col-lg-10 col-12" data-aos="fade-up" data-aos-delay="00">
+									<label for="exampleInputEmail1" class="form-label">Full Name</label>
+									<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								</div>
+								<div class="mb-3 col-lg-10 col-12" data-aos="fade-up" data-aos-delay="100">
+									<label for="exampleInputPassword1" class="form-label">Email</label>
+									<input type="email" class="form-control" id="exampleInputPassword1">
+								</div>
+								<div class="mb-3 col-lg-10 col-12" data-aos="fade-up" data-aos-delay="200">
+									<label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+									<input type="tel" inputmode="numeric" class="form-control" id="exampleFormControlInput1" placeholder="">
+								</div>
+								<div class="mb-3 col-lg-10 col-12" data-aos="fade-up" data-aos-delay="300">
+									<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="3"></textarea>
+								</div>
+								<button type="submit" class="btn" data-aos="fade-up" data-aos-delay="400">Send</button>
+							</form>
+						</div>
+						<div class="col-lg-6 col-12 Contact-details">
+							<div class=" Contact-head">
+								<h6 data-aos="fade-right" data-aos-delay="">Feef free to contact</h6>
+								<h2 class=" " data-aos="fade-up" data-aos-delay="100">
+                                    Any Time or visit Us</h2>
+							</div>
+							<div class="col-12 mt-5" data-aos="fade-up" data-aos-delay="100">
+								<div class="mapouter">
+									<div class="gmap_canvas">
+										<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Southtukoganj,Indore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Mods</a>
+									</div>
+									<style>
+										.mapouter {
+										                                            position: relative;
+										                                            text-align: right;
+										                                            width: 100%;
+										                                            height: 400px;
+										                                        }
+										
+										                                        .gmap_canvas {
+										                                            overflow: hidden;
+										                                            background: none !important;
+										                                            width: 100%;
+										                                            height: 400px;
+										                                        }
+										
+										                                        .gmap_iframe {
+										                                            height: 400px !important;
+										                                        }
+									</style>
+								</div>
+							</div>
+							<div class="row mt-2 gy-4 d-md-none">
+								<div class="col-md-6 col-12 callbtn" data-aos="fade-up" data-aos-delay="100"> <a href="tel:+918461095060" class="btn col-12 ">Call us : +91-8461095060</a>
+								</div>
+								<div class="col-md-6 col-12 mailbtn" data-aos="fade-up" data-aos-delay="200"> <a href="mailto:travel@jadoo.com" class="btn col-12">Mail us : travel@jadoo.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- contact2-section -->
+	<div class="container-fluid Contact-2 pt-5 pb-5 hide-sm " id="Contact-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-10 mx-auto">
+					<div class="row gy-4 ">
+						<div class="col-md-4  col-12" data-aos="fade-up" data-aos-delay="0">
+							<div class="col-12 mx-auto contact-box border p-3">
+								<div class="cover-box">
+									<li class="fa fa-envelope"></li>
+								</div>
+								<h6 class="mt-3">travel@jadoo.com</h6>
+							</div>
+						</div>
+						<div class="col-md-4  col-12" data-aos="fade-up" data-aos-delay="100">
+							<div class="col-12 mx-auto contact-box border p-3 redbox">
+								<div class="cover-box red-text">
+									<li class="fa fa-phone"></li>
+								</div>
+								<h6 class="mt-3">+91-8461095060</h6>
+							</div>
+						</div>
+						<div class="col-md-4  col-12" data-aos="fade-up" data-aos-delay="200">
+							<div class="col-12 mx-auto contact-box border p-3">
+								<div class="cover-box">
+									<li class="fa fa-wpforms"></li>
+								</div>
+								<h6 class="mt-3">Travel Booking</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer-section -->
+	<footer class="container-fluid footer pt-5 pb-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-6">
+							<h6 data-aos="fade-up" data-aos-delay="0" >Jadoo</h6>
+							<ul>
+								<li data-aos="fade-up" data-aos-delay="100">Book your trip in minute, get full Control for much longer.</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-6">
+							<h6 data-aos="fade-up" data-aos-delay="0" >Company</h6>
+							<ul>
+								<li data-aos="fade-up" data-aos-delay="100"><a href="">About</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="200"><a href="">Career</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300"><a href="">Mobile</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-6">
+							<h6 data-aos="fade-up" data-aos-delay="0" >Contact</h6>
+							<ul>
+								<li data-aos="fade-up" data-aos-delay="100"><a href="">Help/FAQ</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="200"><a href="">Press</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300"><a href="">Affilates</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-3 col-6">
+							<h6 data-aos="fade-up" data-aos-delay="0" >More</h6>
+							<ul>
+								<li data-aos="fade-up" data-aos-delay="100"><a href="">Airlinefees</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="200"><a href="">Airline</a>
+								</li>
+								<li data-aos="fade-up" data-aos-delay="300"><a href="">Low fare tips</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-3  col-6">
+							<h6 data-aos="fade-up" data-aos-delay="0" >Catch Us</h6>
+							<ul>
+								<li>
+                                    <a href="" data-aos="fade-up" data-aos-delay="100"><i class="fa fa-facebook"></i></a> &emsp; 
+                                    <a href="" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-instagram"></i></a> &emsp; 
+                                    <a href="" data-aos="fade-up" data-aos-delay="300"><i class="fa fa-twitter"></i></a>
+								</li>
+							</ul>
+							<div class="download">
+								<img src="./Images/Gallery/Google Play.png" alt="" data-aos="fade-up" data-aos-delay="300">
+								<img src="./Images/Gallery/Play Store.png" alt="" data-aos="fade-up" data-aos-delay="400">
+							</div>
+						</div>
+					</div>
+					<hr class="mt-5">
+					<div class="row lowerfooter">
+						<p class="col-12 text-center">All rights reserved@jadoo.co |<span> Vijul Malviya</span> 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Script -->
+	<!-- Jquery 3.5.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Bootstrap 5.0 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<!-- Animation on scroll -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<!-- Swiper -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./Script/script.js"></script>
 </body>
 
 </html>
